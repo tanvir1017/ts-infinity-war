@@ -103,3 +103,9 @@ const monthlyIncomes: Incomes = {
 for (const income in monthlyIncomes) {
   console.log(monthlyIncomes[income as keyof Incomes]);
 }
+
+type recordUtility = {
+  name: string;
+  age: number;
+  address: string;
+};
